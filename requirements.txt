@@ -1,0 +1,22 @@
+# Underwater Visibility Prediction Model
+# Python package requirements
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.26.0,<2.0.0
+
+# Machine learning
+scikit-learn>=1.3.0
+
+# Bayesian modeling
+pymc>=5.0.0
+arviz>=0.17.0
+pytensor>=2.14.0
+
+# Visualization (optional, for plots)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Note: If you encounter numpy compatibility issues, use:
+# numpy==1.26.4
+

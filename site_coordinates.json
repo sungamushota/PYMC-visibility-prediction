@@ -1,0 +1,389 @@
+{
+  "AMJ": {
+    "name": "Ammo Jetty",
+    "lat": -32.1239,
+    "lon": 115.758223,
+    "willy_id": "wa/perth/ammo-jetty",
+    "orientation": 286,
+    "site_type": "jetty",
+    "willy_numeric_id": 36049
+  },
+  "SCR": {
+    "name": "South Cottesloe Reef",
+    "lat": -32.0077,
+    "lon": 115.749,
+    "willy_id": "wa/perth/cottesloe",
+    "orientation": 269,
+    "site_type": "shore reef",
+    "willy_numeric_id": 18824
+  },
+  "MET": {
+    "name": "Mettam's Pool",
+    "lat": -31.868162,
+    "lon": 115.751434,
+    "willy_id": "wa/perth/mettams-pool",
+    "orientation": 272.96,
+    "site_type": "shore reef",
+    "willy_numeric_id": 36079
+  },
+  "WOO": {
+    "name": "Woodman Point",
+    "lat": -32.138073,
+    "lon": 115.744168,
+    "willy_id": "wa/perth/woodman-point",
+    "orientation": 200,
+    "site_type": "offshore reef",
+    "willy_numeric_id": 28073
+  },
+  "HIL": {
+    "name": "Hillarys",
+    "lat": -31.826,
+    "lon": 115.7323,
+    "willy_id": "wa/perth/hillarys-boat-harbour",
+    "orientation": 203,
+    "site_type": "shore reef",
+    "willy_numeric_id": 19546
+  },
+  "RKM": {
+    "name": "Rockingham Dive Trail",
+    "lat": -32.273048,
+    "lon": 115.727729,
+    "willy_id": "wa/perth/rockingham",
+    "orientation": 315,
+    "site_type": "artificial reef",
+    "willy_numeric_id": 14463
+  },
+  "PPR": {
+    "name": "Point Peron",
+    "lat": -32.268829,
+    "lon": 115.684739,
+    "willy_id": "wa/perth/point-peron-boat-ramp",
+    "orientation": 233,
+    "site_type": "shore reef",
+    "willy_numeric_id": 32051
+  },
+  "BWR": {
+    "name": "Blackwall Reach",
+    "lat": -32.020966,
+    "lon": 115.782163,
+    "willy_id": "wa/perth/swan-river--blackwall-reach",
+    "orientation": 296,
+    "site_type": "river",
+    "willy_numeric_id": 32096
+  },
+  "RNN": {
+    "name": "Rottnest North",
+    "lat": -31.980499,
+    "lon": 115.512907,
+    "willy_id": "wa/perth/rottnest-island",
+    "orientation": 330,
+    "site_type": "shore reef",
+    "willy_numeric_id": 14468
+  },
+  "ROB": {
+    "name": "Robbs Jetty",
+    "lat": -32.089257,
+    "lon": 115.754804,
+    "willy_id": "wa/perth/Unknown",
+    "orientation": 245,
+    "site_type": "jetty",
+    "willy_numeric_id": 16098
+  },
+  "KGT": {
+    "name": "Kwinana Grain Terminal",
+    "lat": -32.253374,
+    "lon": 115.742584,
+    "willy_id": "wa/perth/kwinana-grain-jetty",
+    "orientation": 307,
+    "site_type": "jetty",
+    "willy_numeric_id": 36048
+  },
+  "CMT": {
+    "name": "Coogee Maritime Trail",
+    "lat": -32.10586,
+    "lon": 115.761439,
+    "willy_id": "wa/perth/north-coogee",
+    "orientation": 263,
+    "site_type": "artificial reef",
+    "willy_numeric_id": 25544
+  },
+  "KXI": {
+    "name": "K XI Submarine Wreck",
+    "lat": -32.1504,
+    "lon": 115.4995,
+    "willy_id": "wa/perth/rottnest-island",
+    "orientation": 240,
+    "site_type": "wreck",
+    "willy_numeric_id": 19927
+  },
+  "RTS": {
+    "name": "Rottnest South",
+    "lat": -32.03059,
+    "lon": 115.5316,
+    "willy_id": "wa/perth/rottnest-island",
+    "orientation": 163,
+    "site_type": "shore reef",
+    "willy_numeric_id": 19927
+  },
+  "MAR": {
+    "name": "Marmion Reef",
+    "lat": -31.8139,
+    "lon": 115.708,
+    "willy_id": "wa/perth/marmion",
+    "orientation": 230,
+    "site_type": "shore reef",
+    "willy_numeric_id": 28057
+  },
+  "FRE": {
+    "name": "SouthFremantle",
+    "lat": -32.072,
+    "lon": 115.7352,
+    "willy_id": "wa/perth/fremantle",
+    "orientation": 250,
+    "site_type": "offshore reef",
+    "willy_numeric_id": 19540
+  },
+  "SWA": {
+    "name": "Ex-HMAS Swan Wreck",
+    "lat": -33.5515,
+    "lon": 115.098,
+    "willy_id": "wa/great-southern/seal-island",
+    "orientation": 35,
+    "site_type": "wreck",
+    "willy_numeric_id": 25594
+  },
+  "PRT": {
+    "name": "Port Beach",
+    "lat": -32.034953,
+    "lon": 115.744099,
+    "willy_id": "wa//perth/port-beach",
+    "orientation": 293,
+    "site_type": "beach",
+    "willy_numeric_id": 28059
+  },
+  "ROL": {
+    "name": "Rollison Road Artificial Reef",
+    "lat": -32.082061,
+    "lon": 115.750587,
+    "willy_id": "wa/perth/fremantle-south-beach",
+    "orientation": 265,
+    "site_type": "artificial reef",
+    "willy_numeric_id": 19540
+  },
+  "CEN": {
+    "name": "Centaur Reef",
+    "lat": -31.862773,
+    "lon": 115.716516,
+    "willy_id": "wa/perth/north-beach",
+    "orientation": 211,
+    "site_type": "shore reef",
+    "willy_numeric_id": 15960
+  },
+  "BUL": {
+    "name": "Bulk Jetty",
+    "lat": -32.2093,
+    "lon": 115.766,
+    "willy_id": "wa/perth/kwinana-bulk-jetty",
+    "orientation": 284,
+    "site_type": "jetty",
+    "willy_numeric_id": 36047
+  },
+  "CMB": {
+    "name": "The Coombe & Mosman Bay",
+    "lat": -32.01025,
+    "lon": 115.77473,
+    "willy_id": "wa/perth/mosman-park",
+    "orientation": 45,
+    "site_type": "lagoon/bay",
+    "willy_numeric_id": 14561
+  },
+  "CAM": {
+    "name": "Camilla Wreck",
+    "lat": -32.18776,
+    "lon": 115.77419,
+    "willy_id": "wa/perth/kwinana-beach",
+    "orientation": 274,
+    "site_type": "wreck",
+    "willy_numeric_id": 14414
+  },
+  "BSJ": {
+    "name": "Busselton Jetty",
+    "lat": -33.643617,
+    "lon": 115.344511,
+    "willy_id": "wa/south-west/busselton-jetty",
+    "orientation": 330,
+    "site_type": "jetty",
+    "willy_numeric_id": 36031
+  },
+  "CAN": {
+    "name": "Canal Rocks",
+    "lat": -33.666956,
+    "lon": 114.995207,
+    "willy_id": "wa/south-west/canal-rocks-road-boat-ramp",
+    "orientation": 50,
+    "site_type": "shore reef",
+    "willy_numeric_id": 35262
+  },
+  "SGR": {
+    "name": "Sue's Groyne",
+    "lat": -32.096,
+    "lon": 115.7576,
+    "willy_id": "wa/perth/north-coogee",
+    "orientation": 291,
+    "site_type": "beach",
+    "willy_numeric_id": 25544
+  },
+  "FWB": {
+    "name": "Fresh Water Bay",
+    "lat": -31.99738,
+    "lon": 115.77329,
+    "willy_id": "wa/perth/peppermint-grove",
+    "orientation": 63,
+    "site_type": "lagoon/bay",
+    "willy_numeric_id": 14575
+  },
+  "WAR": {
+    "name": "Warnbro Sound",
+    "lat": -32.34,
+    "lon": 115.72,
+    "willy_id": "wa/perth/wanneroo",
+    "orientation": 264,
+    "site_type": "lagoon/bay",
+    "willy_numeric_id": 18934
+  },
+  "BIC": {
+    "name": "Bicton Baths",
+    "lat": -32.027,
+    "lon": 115.777,
+    "willy_id": "wa/perth/bicton",
+    "orientation": 313,
+    "site_type": "river",
+    "willy_numeric_id": 14357
+  },
+  "WAT": {
+    "name": "Watermans/North Beach",
+    "lat": -31.8397,
+    "lon": 115.7494,
+    "willy_id": "wa/perth/watermans-bay",
+    "orientation": 230,
+    "site_type": "beach",
+    "willy_numeric_id": 19544
+  },
+  "GDN": {
+    "name": "Garden Island (North)",
+    "lat": -32.1607,
+    "lon": 115.658,
+    "willy_id": "wa/perth/garden-island",
+    "orientation": 254,
+    "site_type": "offshore reef",
+    "willy_numeric_id": 14387
+  },
+  "RNE": {
+    "name": "Rottnest East",
+    "lat": -32.0,
+    "lon": 115.55,
+    "willy_id": "wa/perth/rottnest-island",
+    "orientation": 80,
+    "site_type": "shore reef",
+    "willy_numeric_id": 19927
+  },
+  "NMF": {
+    "name": "North Mole Fremantle",
+    "lat": -32.048,
+    "lon": 115.726,
+    "willy_id": "wa/perth/fremantle",
+    "orientation": 300,
+    "site_type": "offshore reef",
+    "willy_numeric_id": 14384
+  },
+  "D9W": {
+    "name": "D9 Wreck",
+    "lat": -32.182,
+    "lon": 115.73,
+    "willy_id": "wa/perth/kwinana-beach",
+    "orientation": 350,
+    "site_type": "wreck",
+    "willy_numeric_id": 14414
+  },
+  "CRN": {
+    "name": "Carnac Island",
+    "lat": -32.1199,
+    "lon": 115.6659,
+    "willy_id": "wa/perth/carnac-island",
+    "orientation": 88,
+    "site_type": "offshore reef",
+    "willy_numeric_id": 25588
+  },
+  "PEN": {
+    "name": "Penguin Island",
+    "lat": -32.30489,
+    "lon": 115.688,
+    "willy_id": "wa/perth/penguin-island",
+    "orientation": 251,
+    "site_type": "offshore reef",
+    "willy_numeric_id": 25586
+  },
+  "LIT": {
+    "name": "Little Beach",
+    "lat": -32.144426,
+    "lon": 115.764087,
+    "willy_id": "wa/perth/henderson",
+    "orientation": 253,
+    "site_type": "beach",
+    "willy_numeric_id": 19474
+  },
+  "STA": {
+    "name": "Staggie Reef",
+    "lat": -31.69,
+    "lon": 115.65,
+    "willy_id": "wa/perth/alkimos",
+    "orientation": 247,
+    "site_type": "shore reef",
+    "willy_numeric_id": 36085
+  },
+  "TWR": {
+    "name": "Two Rocks",
+    "lat": -31.4921,
+    "lon": 115.580913,
+    "willy_id": "wa/perth/two-rocks",
+    "orientation": 240,
+    "site_type": "beach",
+    "willy_numeric_id": 34990
+  },
+  "RNW": {
+    "name": "Rottnest West",
+    "lat": -32.02336,
+    "lon": 115.445429,
+    "willy_id": "wa/perth/rottnest-island",
+    "orientation": 243,
+    "site_type": "shore reef",
+    "willy_numeric_id": 14468
+  },
+  "3MR": {
+    "name": "Three Mile Reef",
+    "lat": -31.77654,
+    "lon": 115.67939,
+    "willy_id": "wa/perth/mullaloo-beach",
+    "orientation": 257,
+    "site_type": "shore reef",
+    "willy_numeric_id": 18922
+  },
+  "LEN": {
+    "name": "Lena Wreck",
+    "lat": -33.3598,
+    "lon": 115.5727,
+    "willy_id": "wa/south-west/south-bunbury",
+    "orientation": 286,
+    "site_type": "wreck",
+    "willy_numeric_id": 15976
+  },
+  "HAM": {
+    "name": "Hamelin Bay Beach",
+    "lat": -34.221463,
+    "lon": 115.022,
+    "willy_id": "wa/south-west/hamelin-bay-beach",
+    "orientation": 280,
+    "site_type": "beach",
+    "willy_numeric_id": 37772
+  }
+}

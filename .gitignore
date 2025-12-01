@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Large files (use Git LFS if needed)
+# Uncomment if files are too large for regular git:
+# *.nc
+# *.pkl
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Model outputs (optional - comment out if you want to track these)
+# plots/*.png
+
+# Environment files
+.env
+*.key
+*.credentials
+
