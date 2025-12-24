@@ -1,0 +1,169 @@
+================================================================================
+SITE REPEAT ACCURACY INVESTIGATION - FILES INDEX
+================================================================================
+Generated: December 24, 2025
+
+QUICK START:
+  Read: INVESTIGATION_SUMMARY.md (this has everything in 2 pages)
+  Then: SAMPLING_BIAS_AND_NEXT_STEPS.md (detailed recommendations)
+
+================================================================================
+DOCUMENTATION FILES
+================================================================================
+
+1. INVESTIGATION_SUMMARY.md ⭐ START HERE
+   - Quick 2-page summary
+   - Answers your specific questions
+   - Clear recommendations
+
+2. SAMPLING_BIAS_AND_NEXT_STEPS.md
+   - Full analysis of dive school bias (NONE detected)
+   - Detailed correlation results
+   - Three implementation options
+   - Timeline and expected outcomes
+
+3. SITE_REPEAT_ACCURACY_INVESTIGATION.md
+   - Technical deep-dive
+   - Site-by-site analysis
+   - Root cause investigation
+   - Specific recommendations per site
+
+4. INVESTIGATION_FILES_INDEX.txt
+   - This file - index of everything
+
+================================================================================
+VISUALIZATION FILES (plots/)
+================================================================================
+
+5. plots/sample_size_accuracy_analysis.png
+   - 4-panel analysis of sample size vs accuracy
+   - Shows problematic sites (RKM, SCR, NMF)
+   - Box plots by sample size category
+
+6. plots/visibility_variability_analysis.png
+   - Variability vs error relationships
+   - Sample size vs variability
+   - Shows high-variability sites
+
+7. plots/high_sample_sites_detailed_comparison.png ⭐ KEY VISUAL
+   - Comprehensive comparison of 8 high-sample sites
+   - Performance metrics side-by-side
+   - Color-coded by quality (red/orange/green)
+
+8. plots/visibility_parameter_correlations.png ⭐ KEY VISUAL
+   - 8 environmental parameters vs visibility
+   - Problematic sites (red) vs Good sites (green)
+   - Shows different relationships by site type
+
+9. plots/site_specific_correlations.png
+   - Individual site correlation patterns
+   - 6 sites compared (RKM, SCR, NMF, AMJ, KGT, BUL)
+   - Bar charts showing which parameters matter
+
+10. plots/predicted_vs_actual_visibility.png (existing)
+    - Original model validation plot
+
+11. plots/site_performance_table.png (existing)
+    - Color-coded performance table
+
+================================================================================
+DATA FILES (models/)
+================================================================================
+
+12. models/high_sample_sites_analysis.csv
+    - Detailed metrics for 8 high-sample sites
+    - Includes variability measures
+    - Priority classifications
+
+13. models/visibility_parameter_correlations.csv
+    - All correlation coefficients
+    - P-values and sample sizes
+    - Problematic vs Good site comparisons
+
+14. models/site_performance_metrics.csv (existing)
+    - Original performance data for all 24 sites
+
+================================================================================
+ANALYSIS SCRIPTS (Python)
+================================================================================
+
+15. analyze_sample_size_accuracy.py
+    - Main sample size vs accuracy analysis
+    - Statistical correlations
+    - Creates main visualizations
+
+16. investigate_sampling_bias.py
+    - Tests for fair-weather bias
+    - Seasonal coverage analysis
+    - Observation frequency patterns
+
+17. visibility_parameter_correlations.py
+    - Environmental parameter correlations
+    - Site-type comparisons
+    - Creates correlation plots
+
+18. create_site_comparison_plot.py
+    - Detailed high-sample site comparison
+    - Summary statistics
+    - Priority classifications
+
+================================================================================
+KEY FINDINGS SUMMARY
+================================================================================
+
+PROBLEM IDENTIFIED:
+  ✓ 3 of 8 high-sample sites have poor accuracy (<60%)
+  ✓ RKM: 8.3% accuracy (CRITICAL)
+  ✓ NMF: 36.4% accuracy (CRITICAL)
+  ✓ SCR: 46.7% accuracy (POOR)
+
+ROOT CAUSE:
+  ✗ NOT dive school fair-weather bias (tested, not detected)
+  ✓ Environmental complexity at popular dive sites
+  ✓ Model too simple for transitional zones
+  ✓ Missing local predictors
+
+EVIDENCE:
+  ✓ Weak correlations (r < 0.2 for most parameters)
+  ✓ Opposite relationships at different sites
+  ✓ High visibility variability (Std Dev 3-5m)
+  ✓ Seasonal gaps in observations
+
+RECOMMENDATION:
+  → Option B: Moderate Enhancement (3-4 weeks)
+  → Non-linear modeling + site-specific approaches
+  → Add local predictors (river flow, bathymetry)
+  → Expected: 10-20% accuracy improvement
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+IMMEDIATE:
+  [ ] Review INVESTIGATION_SUMMARY.md
+  [ ] Decide on Option A/B/C approach
+  [ ] Approve timeline and resources
+
+IF PROCEEDING WITH OPTION B:
+  [ ] Week 1: Non-linear analysis (GAM, polynomial terms)
+  [ ] Week 2: Site-type specific models
+  [ ] Week 3: Uncertainty flags, ensemble testing
+  [ ] Week 4: Validation and deployment
+
+ONGOING:
+  [ ] Collect winter observations (SCR, NMF priority)
+  [ ] Integrate river flow data (for NMF)
+  [ ] Monitor model performance
+  [ ] Update quarterly
+
+================================================================================
+CONTACT FOR QUESTIONS
+================================================================================
+
+All analysis scripts are documented and can be re-run.
+All visualizations can be regenerated with updated data.
+All recommendations are based on statistical evidence.
+
+Ready to proceed with improvements!
+
+================================================================================
